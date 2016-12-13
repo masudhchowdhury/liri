@@ -23,7 +23,7 @@ function liri(command, action){
 //Twitter API Function
 function twitter(handle){
   if (!handle){
-    handle = 'bilal_mian';
+    handle = 'masud_chow';
   }
   var client = new Twitter({
     consumer_key: birdKeys.twitterKeys.consumer_key,
